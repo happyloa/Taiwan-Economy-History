@@ -2,9 +2,45 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="icon" href="src/assets/taiwanIcon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + Svelte</title>
+    <title>台灣經濟發展歷史</title>
+    <meta name="description" content="此網站展示台灣過去五十至七十年的經濟發展歷史，以及促成其發展的相關政策"/>
+    <!-- 首頁圖表js -->
+    <script src="https://www.gstatic.com/charts/loader.js"></script>
+    <script>
+    google.charts.load("current", { packages: ["corechart"] });
+    google.charts.setOnLoadCallback(drawChart);
+
+    function drawChart() {
+      var data = google.visualization.arrayToDataTable([
+        ["Year", "GDP"],
+        ["1960", 34394],
+        ["1965", 114762],
+        ["1970", 231397],
+        ["1975", 601778],
+        ["1980", 1522459],
+        ["1980", 2535056],
+        ["1990", 4474288],
+        ["1995", 7391062],
+        ["2000", 10328549],
+        ["2005", 12036675],
+        ["2010", 14060345],
+      ]);
+
+      var options = {
+        title: "台灣過去50年GDP變化圖表",
+        curveType: "function",
+        legend: { position: "bottom" },
+      };
+
+      var chart = new google.visualization.LineChart(
+        document.getElementById("curve_chart")
+      );
+
+      chart.draw(data, options);
+    }
+    </script>
   </head>
   <body>
     <div id="app"></div>
