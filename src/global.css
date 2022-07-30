@@ -1,0 +1,77 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans TC", sans-serif;
+}
+
+section.container {
+  display: flex;
+}
+
+section.container a {
+  color: rgba(4, 214, 151, 0.623);
+  text-decoration: none;
+}
+
+section.left {
+  padding: 2rem;
+}
+
+section.left img {
+}
+
+section.right {
+  padding: 2rem;
+}
+
+section.right h5 {
+  font-size: 1.25rem;
+  text-align: center;
+}
+
+section.right iframe {
+  border-radius: 2rem;
+}
+
+.myPicture {
+  width: 25vh;
+  height: 25vh;
+  border-radius: 50%;
+  margin: auto;
+}
+
+section.left,
+section.right h3 {
+  margin-bottom: 0.5rem;
+}
+
+.special {
+  text-align: center;
+  margin: auto;
+  font-size: 1.35rem;
+  color: red;
+}
+
+.textImg {
+  width: 800px;
+}
+
+div.center {
+  display: flex;
+  margin: 2rem;
+}
+
+div.center p {
+  padding: 1rem;
+}
+
+.ecopage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.ecopage img {
+  margin-top: 2rem;
+}
