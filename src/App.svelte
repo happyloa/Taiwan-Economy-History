@@ -84,7 +84,7 @@
     list-style-type: none;
   }
 
-  nav ul li :global(a) {
+  nav ul :global(a) {
     text-decoration: none;
     color: #c4c4c4;
     margin: 1rem;
@@ -92,15 +92,15 @@
     transition: all 0.3s ease;
   }
 
+  nav ul :global(a):hover {
+    color: white;
+  }
+
+  nav ul :global(a):active {
+    color: white;
+  }
+
   nav ul li i {
     font-size: 1.75rem;
-  }
-
-  nav ul li :global(a):hover {
-    color: white;
-  }
-
-  nav ul li :global(a):active {
-    color: white;
   }
 </style>
