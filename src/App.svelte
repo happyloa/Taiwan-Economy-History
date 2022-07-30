@@ -1,10 +1,15 @@
 <script>
   import { Router, Link, Route } from "svelte-routing";
 
+  // 引入 Home 元件
   import Home from "./lib/Home/Home.svelte";
+  // 引入 Agriculture 元件
   import Agriculture from "./lib/Agriculture/Agriculture.svelte";
+  // 引入 Industralization 元件
   import Industralization from "./lib/Industralization/Industralization.svelte";
+  // 引入 Economy 元件
   import Economy from "./lib/Economy/Economy.svelte";
+  // 引入 Author 元件
   import Author from "./lib/Author/Author.svelte";
 
   export let url = "";
@@ -23,26 +28,26 @@
       <ll>
         <Link to="/"><i class="twicon-main-island" />首頁</Link>
       </ll>
-      <!-- 修改網址結尾成 /agriculture -->
+      <!-- 修改網址結尾成 /Agriculture -->
       <ll>
-        <Link to="agriculture"><i class="twicon-lovers-brg" />農業改革</Link>
+        <Link to="Agriculture"><i class="twicon-lovers-brg" />農業改革</Link>
       </ll>
-      <!-- 修改網址結尾成 /industralization -->
+      <!-- 修改網址結尾成 /Industralization -->
       <ll>
-        <Link to="industralization"><i class="twicon-taipei-stn" />工業改革</Link>
+        <Link to="Industralization"><i class="twicon-taipei-stn" />工業改革</Link>
       </ll>
-      <!-- 修改網址結尾成 /economy -->
+      <!-- 修改網址結尾成 /Economy -->
       <ll>
-        <Link to="economy"><i class="twicon-taipei101" />經濟起飛</Link>
+        <Link to="Economy"><i class="twicon-taipei101" />經濟起飛</Link>
       </ll>
-      <!-- 修改網址結尾成 /author -->
+      <!-- 修改網址結尾成 /Author -->
       <ll>
-        <Link to="author"><i class="twicon-black-bear" />關於作者</Link>
+        <Link to="Author"><i class="twicon-black-bear" />關於作者</Link>
       </ll>
     </ul>
   </nav>
 
-  <div>
+  <main>
     <!-- 將頁面其餘的部分修改成 Home 元件 -->
     <Route path="/"><Home /></Route>
     <!-- 將頁面其餘的部分修改成 Agriculture 元件 -->
@@ -53,7 +58,7 @@
     <Route path="Economy"><Economy /></Route>
     <!-- 將頁面其餘的部分修改成 Author 元件 -->
     <Route path="Author"><Author /></Route>
-  </div>
+  </main>
 </Router>
 
 <style>
