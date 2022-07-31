@@ -48,5 +48,6 @@
     height: 300px;
     border: 0px;
     border-radius: 2rem;
+    margin-top: 30px;
   }
 </style>
