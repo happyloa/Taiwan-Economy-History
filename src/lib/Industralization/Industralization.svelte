@@ -1,3 +1,8 @@
+<!-- 修改 head 資訊 -->
+<svelte:head>
+  <title>工業改革 | 台灣經濟發展歷史</title>
+</svelte:head>
+
 <section class="container">
   <section class="left">
     <h2>台灣輕工業與重工業</h2>

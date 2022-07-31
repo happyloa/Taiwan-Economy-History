@@ -66,11 +66,9 @@
     background-color: #c4c4c4;
     padding: 1rem;
   }
-
   header h1 {
     font-size: 2.5rem;
   }
-
   header h1 i {
     font-size: 3rem;
   }
@@ -83,7 +81,6 @@
     display: flex;
     list-style-type: none;
   }
-
   nav ul :global(a) {
     text-decoration: none;
     color: #c4c4c4;
@@ -91,15 +88,12 @@
     font-size: 1.25rem;
     transition: all 0.3s ease;
   }
-
   nav ul :global(a):hover {
     color: white;
   }
-
   nav ul :global(a):active {
     color: white;
   }
-
   nav ul li i {
     font-size: 1.75rem;
   }

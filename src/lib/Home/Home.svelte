@@ -1,3 +1,8 @@
+<!-- 修改 head 資訊 -->
+<svelte:head>
+  <title>首頁 | 台灣經濟發展歷史</title>
+</svelte:head>
+
 <section class="container">
   <!--這裡是主要部份的左邊內容-->
   <section class="left">
