@@ -8,7 +8,7 @@
     <h2>今日的台灣</h2>
     <hr />
 
-    <img src="src/assets/Group 1.svg" alt="" class="group1" />
+    <img src="src/assets/Group1.svg" alt="時代演進圖" class="group1" />
     <br />
     <p>
       1980年代後，台灣政府開始實施不同的經濟政策，將產業結構從“重工業”轉變為“技術密集型產業”。
