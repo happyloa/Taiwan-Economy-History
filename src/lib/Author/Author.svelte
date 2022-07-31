@@ -5,7 +5,7 @@
 
 <section class="container">
   <section class="left">
-    <img src="./picture.jpg" alt="" class="myPicture" />
+    <img src="images/picture.jpg" alt="" class="myPicture" />
   </section>
 
   <section class="right">
