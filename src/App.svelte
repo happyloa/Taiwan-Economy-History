@@ -12,6 +12,9 @@
   // 引入 Author 元件
   import Author from "./lib/Author/Author.svelte";
 
+  // 引入 Footer 元件
+  import Footer from "./lib/Footer/Footer.svelte";
+
   export let url = "";
 </script>
 
@@ -60,6 +63,9 @@
     <Route path="Author"><Author /></Route>
   </main>
 </Router>
+
+<!-- 這裡是 Footer -->
+<Footer/>
 
 <style>
   header {
