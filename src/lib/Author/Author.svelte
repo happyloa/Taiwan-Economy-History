@@ -61,3 +61,12 @@
     </ul>
   </section>
 </section>
+
+<style>
+  .myPicture {
+    width: 25vh;
+    height: 25vh;
+    border-radius: 50%;
+    margin: auto;
+  }
+</style>

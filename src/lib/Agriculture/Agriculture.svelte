@@ -56,3 +56,12 @@
     </p>
   </section>
 </section>
+
+<style>
+  .special {
+    text-align: center;
+    margin: auto;
+    font-size: 1.35rem;
+    color: red;
+  }
+</style>

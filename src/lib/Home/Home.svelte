@@ -47,5 +47,6 @@
     width: 300px;
     height: 300px;
     border: 0px;
+    border-radius: 2rem;
   }
 </style>

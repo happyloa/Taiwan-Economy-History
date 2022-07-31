@@ -46,3 +46,14 @@
     </div>
   </section>
 </section>
+
+<style>
+  div.center {
+    display: flex;
+    margin: 2rem;
+  }
+
+  div.center p {
+    padding: 1rem;
+  }
+</style>

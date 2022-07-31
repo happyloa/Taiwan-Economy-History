@@ -35,3 +35,15 @@
     </ul>
   </section>
 </section>
+
+<style>
+  .ecopage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.ecopage img {
+  margin-top: 2rem;
+}
+</style>

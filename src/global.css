@@ -29,48 +29,12 @@ section.right h5 {
   text-align: center;
 }
 
-section.right iframe {
-  border-radius: 2rem;
-}
-
-.myPicture {
-  width: 25vh;
-  height: 25vh;
-  border-radius: 50%;
-  margin: auto;
-}
-
 section.left,
 section.right h3 {
   margin-bottom: 0.5rem;
-}
-
-.special {
-  text-align: center;
-  margin: auto;
-  font-size: 1.35rem;
-  color: red;
 }
 
 .textImg {
   width: 800px;
 }
 
-div.center {
-  display: flex;
-  margin: 2rem;
-}
-
-div.center p {
-  padding: 1rem;
-}
-
-.ecopage {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.ecopage img {
-  margin-top: 2rem;
-}
