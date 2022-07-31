@@ -1,6 +1,7 @@
 # 台灣經濟發展歷史
 
-此為 Udemy 線上課程的作業，這份作業原本是單純用 HTML + CSS 製作而成的，我把這份作業與 [Svelte](https://svelte.dev/) 框架整合起來，當作練習，這份作業有使用 Netlify 部署，網址為：
+此為 Udemy 線上課程的作業，這份作業原本是單純用 HTML + CSS 製作而成的，我把這份作業與 [Svelte](https://svelte.dev/) 框架整合起來，當作練習。
+這份作業有使用 Netlify 部署，網址為：
 https://taiwan-economy-history.netlify.app
 
 ## 在本地端啟動專案
@@ -32,3 +33,7 @@ https://taiwan-economy-history.netlify.app
 ### 修改 port 號
 
 如果需要修改 port 號，可以至 `package.json` 檔案內依照實際需求進行修改。
+
+## 額外安裝的套件
+
+ - [Svelte Routing](https://github.com/EmilTholin/svelte-routing)
