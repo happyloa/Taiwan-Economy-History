@@ -38,3 +38,4 @@ https://taiwan-economy-history.netlify.app
 
  - [Bootstrap 5](https://getbootstrap.com/)
  - [Svelte Routing](https://github.com/EmilTholin/svelte-routing)
+ - [svelte-i18n](https://github.com/kaisermann/svelte-i18n)
