@@ -1,76 +1,44 @@
+<script>
+  import { _ } from "svelte-i18n";
+</script>
+
 <!-- 修改 head 資訊 -->
 <svelte:head>
-  <title>農業改革 | 台灣經濟發展歷史</title>
+  <title>{$_("Agriculture.title")}</title>
 </svelte:head>
 
 <section class="container-fluid">
   <div class="row">
     <div class="col-12">
       <section class="p-2">
-        <h2>375減租</h2>
+        <h2>{$_("Agriculture.reduceRent")}</h2>
         <hr />
-        <p class="fs-5">
-          第一項土地政策是"375減租"
-          台灣在日本統治下時，由於人口過多，因此擁有大量土地的房東可以決定誰可以租用該地區（需求量很高，但土地屬於一小群人）。
-          租戶必須將所有農作物交給種子，除了種子部分。
-          當發生自然災害或農作物歉收時，他們仍然需要向房東提供所有租金。
-          過去，租金被稱為“鐵租金”，這意味著他們的權利沒有得到保護，即使他們沒有足夠的權利，他們仍然需要放棄一切。
-        </p>
-        <p class="fs-5">
-          第一項土地政策是改變這種狀況。
-          中華民國政府過去在中國實行50％的租金政策，這意味著租金不能高於農作物的50％。
-          1949年4月，台灣省總統陳誠宣布了新的土地政策“降低37.5％的耕地租金法”。
-          它將50％的租金降低了25％，得出以下公式：
-        </p>
-        <p class="special">50% x (1-0.25) = 37.5%</p>
+        <p class="fs-5">{$_("Agriculture.firstParagraph")}</p>
+        <p class="fs-5">{$_("Agriculture.formulaIntro")}</p>
+        <p class="text-danger text-center fs-3">50% x (1-0.25) = 37.5%</p>
 
         <ol class="list-group list-group-numbered ms-0 ms-md-4">
+          <li class="list-group-item border-0">{$_("Agriculture.listOne")}</li>
+          <li class="list-group-item border-0">{$_("Agriculture.listTwo")}</li>
           <li class="list-group-item border-0">
-            業主不得提前租用土地租金。 如果農作物歉收，那麼租金應該更低。
+            {$_("Agriculture.listThree")}
           </li>
-          <li class="list-group-item border-0">租金合同應不少於六年。</li>
-          <li class="list-group-item border-0">
-            合同到期時，如果房東不打算將其帶回去進行自耕農作，則應將其租給租戶。
-          </li>
-          <li class="list-group-item border-0">
-            如果房東計劃出售土地，則租戶優先購買。
-          </li>
-          <li class="list-group-item border-0">
-            每個城鎮都需要建立房租協會來處理土地爭用或爭論。
-          </li>
+          <li class="list-group-item border-0">{$_("Agriculture.listFour")}</li>
+          <li class="list-group-item border-0">{$_("Agriculture.listFive")}</li>
         </ol>
 
         <br />
 
-        <h2>公地放領</h2>
+        <h2>{$_("Agriculture.publicLand")}</h2>
         <hr />
-        <p class="fs-5">
-          以下政策是“出售公共土地”。
-          根據台灣國家發展委員會的報告，台灣的公共土地是日本政府，私人公司和個人擁有的土地。
-          土地面積約為1760平方公里。
-          從1951年到1976年，中華民國政府進行了9次銷售的公共土地交易。土地價格是該土地年稻米產量的2.5倍。
-          人們必須通過農作物或現金支付價格十年。
-          這項政策的目的是使人民自給自足。
-          這項政策使28.86.27萬戶家庭受益，出售的土地為1397570000平方米。
-        </p>
+        <p class="fs-5">{$_("Agriculture.publicLandIntro")}</p>
 
         <br />
 
-        <h2>土地耕作計畫</h2>
+        <h2>{$_("Agriculture.farmingPlan")}</h2>
         <hr />
-        <p class="fs-5">
-          1953年，即“出售公共土地”兩年後，中華民國政府宣布了一項新的土地政策，即“土地耕種程序”。這項政策使房東僅保留其土地的一部分，然後政府將其拿走並分配給人們。房東從政府那裡得到了一些補償，包括政府擁有的公司股票。
-        </p>
+        <p class="fs-5">{$_("Agriculture.farmingPlanIntro")}</p>
       </section>
     </div>
   </div>
 </section>
-
-<style>
-  .special {
-    text-align: center;
-    margin: auto;
-    font-size: 1.35rem;
-    color: red;
-  }
-</style>

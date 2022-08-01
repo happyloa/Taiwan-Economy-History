@@ -1,5 +1,11 @@
 <script>
   import { Router, Link, Route } from "svelte-routing";
+  import { locale, _ } from 'svelte-i18n'
+
+  const handleLocaleChange = e => {
+  e.preventDefault();
+  locale.set(e.target.value);
+  };
 
   // 引入 Home 元件
   import Home from "./lib/Home/Home.svelte";
@@ -34,28 +40,29 @@
         <ul class="navbar-nav me-auto mb-2 mb-md-0">
           <!-- 修改網址結尾成 / -->
           <ll class="nav-item">
-            <Link class="nav-link m-1 fs-5 text-center text-lg-start" to="/"><i class="twicon-roc-flag fs-4" />首頁</Link>
+            <Link class="nav-link m-1 fs-5 text-center text-lg-start" to="/"><i class="twicon-roc-flag fs-4" />{$_("navBar.Home")}</Link>
           </ll>
           <!-- 修改網址結尾成 /Agriculture -->
           <ll class="nav-item">
-            <Link class="nav-link m-1 fs-5 text-center text-lg-start" to="Agriculture"><i class="twicon-flying-fish fs-4" />農業改革</Link>
+            <Link class="nav-link m-1 fs-5 text-center text-lg-start" to="Agriculture"><i class="twicon-flying-fish fs-4" />{$_("navBar.Agriculture")}</Link>
           </ll>
           <!-- 修改網址結尾成 /Industralization -->
           <ll class="nav-item">
-            <Link class="nav-link m-1 fs-5 text-center text-lg-start" to="Industralization"><i class="twicon-youbike fs-4" />工業改革</Link>
+            <Link class="nav-link m-1 fs-5 text-center text-lg-start" to="Industralization"><i class="twicon-youbike fs-4" />{$_("navBar.Industralization")}</Link>
           </ll>
           <!-- 修改網址結尾成 /Economy -->
           <ll class="nav-item">
-            <Link class="nav-link m-1 fs-5 text-center text-lg-start" to="Economy"><i class="twicon-taipei101 fs-4" />經濟起飛</Link>
+            <Link class="nav-link m-1 fs-5 text-center text-lg-start" to="Economy"><i class="twicon-taipei101 fs-4" />{$_("navBar.Economy")}</Link>
           </ll>
           <!-- 修改網址結尾成 /Author -->
           <ll class="nav-item">
-            <Link class="nav-link m-1 fs-5 text-center text-lg-start" to="Author"><i class="twicon-black-bear fs-4" />關於作者</Link>
+            <Link class="nav-link m-1 fs-5 text-center text-lg-start" to="Author"><i class="twicon-black-bear fs-4" />{$_("navBar.Author")}</Link>
           </ll>
         </ul>
-        <p class="navbar-text mx-2 mb-0 text-center">
-          中文 / English
-        </p>
+        <select on:change={handleLocaleChange} class="form-select w-25 d-block mx-auto">
+            <option value="zhTW">繁體中文</option>
+            <option value="en">English</option>
+        </select>
       </div>
     </div>
   </nav>
