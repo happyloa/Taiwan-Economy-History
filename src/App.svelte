@@ -23,21 +23,21 @@
   <p>過去70年台灣經濟發展的歷史以及相關政策</p>
 </header>
 
-<!--這裡是nav bar-->
 <Router url="{url}">
+  <!--這裡是nav bar-->
   <nav>
     <ul>
       <!-- 修改網址結尾成 / -->
       <ll>
-        <Link to="/"><i class="twicon-main-island" />首頁</Link>
+        <Link to="/"><i class="twicon-roc-flag" />首頁</Link>
       </ll>
       <!-- 修改網址結尾成 /Agriculture -->
       <ll>
-        <Link to="Agriculture"><i class="twicon-lovers-brg" />農業改革</Link>
+        <Link to="Agriculture"><i class="twicon-flying-fish" />農業改革</Link>
       </ll>
       <!-- 修改網址結尾成 /Industralization -->
       <ll>
-        <Link to="Industralization"><i class="twicon-taipei-stn" />工業改革</Link>
+        <Link to="Industralization"><i class="twicon-youbike" />工業改革</Link>
       </ll>
       <!-- 修改網址結尾成 /Economy -->
       <ll>
