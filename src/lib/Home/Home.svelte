@@ -40,8 +40,10 @@
           台灣的陸地面積為13972公里，島上約有2380萬人居住，最主要通用語言為中文、閩南語、客家話。
         </p>
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d462784.514713056!2d121.22618341957953!3d25.016963851399396!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442ac72bce20a99%3A0x3f6a35cedd0ac2e0!2z5Y-w5YyX!5e0!3m2!1szh-TW!2stw!4v1596249930634!5m2!1szh-TW!2stw"
-          class="w-100 border-0 rounded-4"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3747434.728288353!2d117.840608673357!3d23.474736379075086!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346ed5cb2b61c3a5%3A0xcf20ddb042be7fa0!2z6Ie654Gj!5e0!3m2!1szh-TW!2stw!4v1659361856358!5m2!1szh-TW!2stw"
+          class="w-100 rounded-4"
+          frameborder="0"
+          loading="lazy"
           aria-hidden="false"
           title="台灣地理位置"
         />
