@@ -34,6 +34,7 @@ https://taiwan-economy-history.netlify.app
 
 如果需要修改 port 號，可以至 `package.json` 檔案內依照實際需求進行修改。
 
-## 額外安裝的套件
+## 第三方套件
 
+ - [Bootstrap 5](https://getbootstrap.com/)
  - [Svelte Routing](https://github.com/EmilTholin/svelte-routing)
