@@ -21,7 +21,7 @@
 </script>
 
 <!-- 這裡是 BeforeHeader -->
-<BeforeHeader />
+<BeforeHeader/>
 
 <Router url="{url}">
   <!--這裡是nav bar-->
