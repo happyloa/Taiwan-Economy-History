@@ -1,0 +1,35 @@
+{
+    "beforeHeader": {
+        "Heading": "History of Taiwan's Economic Development",
+        "SubHeading": "The history of Taiwan's economic development and related policies in the past 70 years"
+    },
+    "navBar": {
+        "Home": "Home",
+        "Agriculture": "Agriculture",
+        "Industralization": "Industralization",
+        "Economy": "Economy",
+        "Author": "About"
+    },
+    "Home": {
+        "title": "Home | History of Taiwan's Economic Development",
+        "taiwanIntro": "Taiwan is an island in the Pacific Ocean. Today, different groups of people live on the island, including Hokkien, Hakka, Chinese from other provinces, Taiwanese aborigines and Southeast Asian immigrants. Before World War II, Taiwan was a Japanese colony. In 1895, due to the failure of the First Anti-Japanese War, China gave Taiwan, Liaodong Peninsula and other places to Japan. After World War II, the government of the Republic of China moved to Taiwan and started building the island. When the ROC government arrived in Taiwan in 1949, nearly 2 million soldiers and their families also emigrated to Taiwan. When the government of the Republic of China arrived in Taiwan at that time, there were many things that needed to be resolved. At the end of World War II in 1945, Taiwan's economic and sanitary conditions were low. The government of the Republic of China had a major influence on the development of Taiwan, transforming the economic entity from agriculture to high-tech industries. During the 1960s and 1980s, a series of serious new policies and development plans industrialized Taiwan. Taiwan's National Bureau of Statistics said that in 1965 per capita GDP was $229, and 30 years later, in 1984, per capita GDP increased to $3,225.",
+        "ROCgovernment": "When the R.O.C. government arrived in Taiwan, the first thing they did was a series of land policies. First, they amended the bill to reduce ties to the Chinese bill system, and then issued Taiwan dollars. After that, they established many rules for farmers so that they could be self-sufficient. The second step in improving economic conditions is to develop light industry. The government started helping to set up small factories to produce textiles, shoes and paper. This helped Taiwan prepare to move to heavy industry. To stimulate investment, the government is encouraging investors from around the world to set up factories in Taiwan's ports. This time is the third step of development. The site will discuss what's happening in Taiwan, Taiwan's policies and changes and who's going to help and make all these things work.",
+        "whereIsTaiwan": "Knowledge of Taiwan's economic development, do you know where Taiwan is?",
+        "taiwanLocation": "Taiwan is a small island in the Pacific Ocean. It is adjacent to China, and the aborigines on the island are believed to be the origin of the Austronesian peoples of the Pacific Islands. The land area of ​​Taiwan is 13,972 kilometers. About 23.8 million people live on the island. The main common languages ​​are Chinese, Hokkien and Hakka."
+    },
+    "Agriculture": {
+        "title": "Agricultural | History of Taiwan's Economic Development",
+        "reduceRent": "375 Rent Reduction",
+        "firstParagraph": "The first land policy is 375 rent reduction. When Taiwan was under Japanese rule, due to its overpopulation, landlords with large amounts of land could decide who could rent the area (the demand was high, but the land belonged to a small group of people). Tenants must hand over all crops except the seed part. In the event of a natural disaster or crop failure, they are still required to provide all rent to their landlords. In the past, rents were called iron rents, which meant that their rights were not protected, and even if they didn't have enough rights, they still needed to give up everything.",
+        "formulaIntro": "The first land policy is to change this. The ROC government used to have a 50% rent policy in China, which meant that rents could not be higher than 50% of crops. In April 1949, the President of Taiwan Province, Chen Cheng, announced a new land policy, The Law of 37.5% Reduction of Cultivated Land Rent. It reduces the 50% rent by 25%, resulting in the following formula:",
+        "listOne": "Landlords are not allowed to lease land rent in advance. If crops fail, then rents should be lower.",
+        "listTwo": "The rental contract should be no less than six years.",
+        "listThree": "When the contract expires, it should be leased to the tenant if the landlord does not intend to take it back for home farming.",
+        "listFour": "If the landlord plans to sell the land, the tenant has priority to buy it.",
+        "listFive": "Every town needs to have a rent association to deal with land contention or disputes.",
+        "publicLand": "Public Land",
+        "publicLandIntro": "The following policy is Sale of Public Land. According to a report by the National Development Council of Taiwan, public land in Taiwan is land owned by the Japanese government, private companies and individuals. The land area is about 1760 square kilometers. From 1951 to 1976, the ROC government conducted 9 public land transactions for sale. The land price is 2.5 times the annual rice yield of the land. People have to pay the price for ten years through crops or cash. The purpose of this policy is to make the people self-sufficient. This policy benefited 288,627 households and sold 139,757,000 square meters of land.",
+        "farmingPlan": "Farming Plan",
+        "farmingPlanIntro": "In 1953, two years after the sale of public land, the ROC government announced a new land policy, the Land Cultivation Procedure. The policy allows landlords to keep only a portion of their land, which the government then takes and distributes to people. Landlords receive some compensation from the government, including government-owned company stock."
+    }
+}
