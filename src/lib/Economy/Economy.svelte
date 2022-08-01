@@ -46,4 +46,9 @@
   .ecopage img {
     margin-top: 2rem;
   }
+
+  ul li a {
+    color: rgba(4, 214, 151, 0.623);
+    text-decoration: none;
+  }
 </style>
