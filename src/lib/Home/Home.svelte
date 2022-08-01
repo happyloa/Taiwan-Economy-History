@@ -5,9 +5,9 @@
 
 <section class="container-fluid">
   <div class="row">
-    <div class="col-12 col-sm-7 col-md-9">
+    <div class="col-12 col-md-7 col-lg-9">
       <!--這裡是主要部份的左邊內容-->
-      <section class="p-2 p-md-4">
+      <section class="p-2">
         <p class="fs-5">
           台灣是太平洋中的一個島嶼。今天，這個島上生活著不同的人群，包括福建，客家，其他省份的中國人，台灣原住民和東南亞移民。第二次世界大戰之前，台灣是日本的殖民地。
           1895年，由於第一次抗日戰爭失敗，中國將台灣，遼東半島等地賜予日本。第二次世界大戰後，中華民國政府移居台灣，並開始建造該島。中華民國政府在1949年到達台灣時，也有將近200萬士兵及其家屬也移居台灣。當時中華民國政府到達台灣時，有許多事情需要解決。
@@ -28,9 +28,9 @@
       </section>
     </div>
 
-    <div class="col-12 col-sm-5 col-md-3">
+    <div class="col-12 col-md-5 col-lg-3">
       <!--這裡是主要部份的右邊內容-->
-      <section class="p-2 p-md-4">
+      <section class="p-2">
         <h3 class="text-center mb-3">
           台灣經濟發展小知識<br />你知道台灣在哪裡嗎?
         </h3>

@@ -3,7 +3,7 @@
   <title>經濟起飛 | 台灣經濟發展歷史</title>
 </svelte:head>
 
-<section class="container">
+<section class="container-fluid">
   <section class="left ecopage">
     <h2>今日的台灣</h2>
     <hr />

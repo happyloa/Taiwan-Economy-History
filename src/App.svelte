@@ -20,42 +20,44 @@
 
 <header class="container-fluid bg-light p-3">
   <div class="row">
-    <h1 class="text-center text-md-start"><i class="twicon-main-island fs-1" /> 台灣經濟發展歷史</h1>
-    <p class="text-center text-md-start mb-0 mb-md-2">過去70年台灣經濟發展的歷史以及相關政策</p>
+    <div class="col-12">
+      <h1 class="text-center text-lg-start"><i class="twicon-main-island fs-1" /> 台灣經濟發展歷史</h1>
+      <p class="text-center text-lg-start mb-0 mb-md-2">過去70年台灣經濟發展的歷史以及相關政策</p>
+    </div>
   </div>
 </header>
 
 <Router url="{url}">
   <!--這裡是nav bar-->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-3">
     <div class="container-fluid">
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#economyNav" aria-controls="economyNav" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#economyNav" aria-controls="economyNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="economyNav">
         <ul class="navbar-nav me-auto mb-2 mb-md-0">
           <!-- 修改網址結尾成 / -->
           <ll class="nav-item">
-            <Link class="nav-link m-1 fs-5 text-center text-md-start" to="/"><i class="twicon-roc-flag fs-4" />首頁</Link>
+            <Link class="nav-link m-1 fs-5 text-center text-lg-start" to="/"><i class="twicon-roc-flag fs-4" />首頁</Link>
           </ll>
           <!-- 修改網址結尾成 /Agriculture -->
           <ll class="nav-item">
-            <Link class="nav-link m-1 fs-5 text-center text-md-start" to="Agriculture"><i class="twicon-flying-fish fs-4" />農業改革</Link>
+            <Link class="nav-link m-1 fs-5 text-center text-lg-start" to="Agriculture"><i class="twicon-flying-fish fs-4" />農業改革</Link>
           </ll>
           <!-- 修改網址結尾成 /Industralization -->
           <ll class="nav-item">
-            <Link class="nav-link m-1 fs-5 text-center text-md-start" to="Industralization"><i class="twicon-youbike fs-4" />工業改革</Link>
+            <Link class="nav-link m-1 fs-5 text-center text-lg-start" to="Industralization"><i class="twicon-youbike fs-4" />工業改革</Link>
           </ll>
           <!-- 修改網址結尾成 /Economy -->
           <ll class="nav-item">
-            <Link class="nav-link m-1 fs-5 text-center text-md-start" to="Economy"><i class="twicon-taipei101 fs-4" />經濟起飛</Link>
+            <Link class="nav-link m-1 fs-5 text-center text-lg-start" to="Economy"><i class="twicon-taipei101 fs-4" />經濟起飛</Link>
           </ll>
           <!-- 修改網址結尾成 /Author -->
           <ll class="nav-item">
-            <Link class="nav-link m-1 fs-5 text-center text-md-start" to="Author"><i class="twicon-black-bear fs-4" />關於作者</Link>
+            <Link class="nav-link m-1 fs-5 text-center text-lg-start" to="Author"><i class="twicon-black-bear fs-4" />關於作者</Link>
           </ll>
         </ul>
-        <p class="navbar-text mx-2 mb-0 text-center text-md-start">
+        <p class="navbar-text mx-2 mb-0 text-center">
           中文 / English
         </p>
       </div>

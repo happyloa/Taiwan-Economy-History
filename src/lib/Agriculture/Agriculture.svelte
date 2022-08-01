@@ -6,7 +6,7 @@
 <section class="container-fluid">
   <div class="row">
     <div class="col-12">
-      <section class="p-2 p-md-4">
+      <section class="p-2">
         <h2>375減租</h2>
         <hr />
         <p class="fs-5">
