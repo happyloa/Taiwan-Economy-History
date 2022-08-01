@@ -18,36 +18,48 @@
   export let url = "";
 </script>
 
-<header>
-  <h1><i class="twicon-main-island" /> 台灣經濟發展歷史</h1>
-  <p>過去70年台灣經濟發展的歷史以及相關政策</p>
+<header class="container-fluid bg-light p-3">
+  <div class="row">
+    <h1 class="text-center text-md-start"><i class="twicon-main-island fs-1" /> 台灣經濟發展歷史</h1>
+    <p class="text-center text-md-start my-0 my-md-2">過去70年台灣經濟發展的歷史以及相關政策</p>
+  </div>
 </header>
 
 <Router url="{url}">
   <!--這裡是nav bar-->
-  <nav>
-    <ul>
-      <!-- 修改網址結尾成 / -->
-      <ll>
-        <Link to="/"><i class="twicon-roc-flag" />首頁</Link>
-      </ll>
-      <!-- 修改網址結尾成 /Agriculture -->
-      <ll>
-        <Link to="Agriculture"><i class="twicon-flying-fish" />農業改革</Link>
-      </ll>
-      <!-- 修改網址結尾成 /Industralization -->
-      <ll>
-        <Link to="Industralization"><i class="twicon-youbike" />工業改革</Link>
-      </ll>
-      <!-- 修改網址結尾成 /Economy -->
-      <ll>
-        <Link to="Economy"><i class="twicon-taipei101" />經濟起飛</Link>
-      </ll>
-      <!-- 修改網址結尾成 /Author -->
-      <ll>
-        <Link to="Author"><i class="twicon-black-bear" />關於作者</Link>
-      </ll>
-    </ul>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#economyNav" aria-controls="economyNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="economyNav">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+          <!-- 修改網址結尾成 / -->
+          <ll class="nav-item">
+            <Link class="nav-link m-1 fs-4 fs-md-5 text-center text-md-start" to="/"><i class="twicon-roc-flag fs-4" />首頁</Link>
+          </ll>
+          <!-- 修改網址結尾成 /Agriculture -->
+          <ll class="nav-item">
+            <Link class="nav-link m-1 fs-4 fs-md-5 text-center text-md-start" to="Agriculture"><i class="twicon-flying-fish fs-4" />農業改革</Link>
+          </ll>
+          <!-- 修改網址結尾成 /Industralization -->
+          <ll class="nav-item">
+            <Link class="nav-link m-1 fs-4 fs-md-5 text-center text-md-start" to="Industralization"><i class="twicon-youbike fs-4" />工業改革</Link>
+          </ll>
+          <!-- 修改網址結尾成 /Economy -->
+          <ll class="nav-item">
+            <Link class="nav-link m-1 fs-4 fs-md-5 text-center text-md-start" to="Economy"><i class="twicon-taipei101 fs-4" />經濟起飛</Link>
+          </ll>
+          <!-- 修改網址結尾成 /Author -->
+          <ll class="nav-item">
+            <Link class="nav-link m-1 fs-4 fs-md-5 text-center text-md-start" to="Author"><i class="twicon-black-bear fs-4" />關於作者</Link>
+          </ll>
+        </ul>
+        <span class="navbar-text me-2">
+          Navbar text with an inline element
+        </span>
+      </div>
+    </div>
   </nav>
 
   <main>
@@ -66,41 +78,3 @@
 
 <!-- 這裡是 Footer -->
 <Footer/>
-
-<style>
-  header {
-    background-color: #c4c4c4;
-    padding: 1rem;
-  }
-  header h1 {
-    font-size: 2.5rem;
-  }
-  header h1 i {
-    font-size: 3rem;
-  }
-
-  nav {
-    background-color: #312f2f;
-    padding: 1rem;
-  }
-  nav ul {
-    display: flex;
-    list-style-type: none;
-  }
-  nav ul :global(a) {
-    text-decoration: none;
-    color: #c4c4c4;
-    margin: 1rem;
-    font-size: 1.25rem;
-    transition: all 0.3s ease;
-  }
-  nav ul :global(a):hover {
-    color: white;
-  }
-  nav ul :global(a):active {
-    color: white;
-  }
-  nav ul li i {
-    font-size: 1.75rem;
-  }
-</style>
