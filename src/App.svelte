@@ -13,7 +13,7 @@
   import Author from "./lib/Author/Author.svelte";
 
   // 引入 beforeHeader 元件
-  import BeforeHeader from "./lib/before_Header/before_Header.svelte";
+  import BeforeHeader from "./lib/beforeHeader/beforeHeader.svelte";
   // 引入 Footer 元件
   import Footer from "./lib/Footer/Footer.svelte";
 
