@@ -48,5 +48,16 @@
         "additional": "Additional Information:",
         "semiconductor": "Taiwan Semiconductor Industry",
         "semiconductorFuture": "The next decade of semiconductors"
+    },
+    "Author": {
+        "title": "About | History of Taiwan's Economic Development",
+        "introduction": "Introduction",
+        "introOne": "I am a front-end developer and algorithm designer. I study at Brigham Young University, Hawaii, majoring in computer science. I like to help people learn to program.",
+        "introTwo": "Before I came to the States, I never had any experience in programming. I chose computer science as my major because I like to use computers since I was young. I wrote tons of different websites, developed many kinds of templates and web page structures. I also spend time learning new front-end designs online in my free time.",
+        "introThree": "Taiwan has very limited resources in front-end development, in terms of designer fashions and technique varieties. Much first-hand information is written in English, and they are not widely known or practiced in Taiwan. Taiwanese developers have to spend extra time to absorb the newest techniques. I use my coding experience in the US to teach students how to build websites fast, but also create more with less effort!",
+        "skills": "My Skills"
+    },
+    "Footer": {
+        "footerParagraph": "Made by Wolfpack"
     }
 }
