@@ -39,7 +39,7 @@
   <title>{$_("Home.title")}</title>
 </svelte:head>
 
-<section class="container-fluid">
+<section class="container-fluid my-3">
   <div class="row">
     <div class="col-12 col-md-7 col-lg-9">
       <!--這裡是主要部份的左邊內容-->

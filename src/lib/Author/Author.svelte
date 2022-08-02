@@ -3,7 +3,7 @@
   <title>關於作者 | 台灣經濟發展歷史</title>
 </svelte:head>
 
-<section class="container-fluid">
+<section class="container-fluid my-3">
   <section class="left">
     <img src="images/picture.jpg" alt="" class="myPicture" />
   </section>

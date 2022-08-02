@@ -7,7 +7,7 @@
   <title>{$_("Agriculture.title")}</title>
 </svelte:head>
 
-<section class="container-fluid">
+<section class="container my-3">
   <div class="row">
     <div class="col-12">
       <section class="p-2">
