@@ -31,7 +31,7 @@
 
 <Router url="{url}">
   <!--這裡是nav bar-->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-3 sticky-top">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
     <div class="container-fluid">
       <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#economyNav" aria-controls="economyNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
