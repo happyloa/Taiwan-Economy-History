@@ -11,12 +11,13 @@
   <div class="row">
     <div class="col-12">
       <section class="p-2">
-        <h2>{$_("Agriculture.reduceRent")}</h2>
+        <h2 class="text-center text-lg-start">
+          {$_("Agriculture.reduceRent")}
+        </h2>
         <hr />
         <p class="fs-5">{$_("Agriculture.firstParagraph")}</p>
         <p class="fs-5">{$_("Agriculture.formulaIntro")}</p>
         <p class="text-danger text-center fs-3">50% x (1-0.25) = 37.5%</p>
-
         <ol class="list-group list-group-numbered ms-0 ms-md-4">
           <li class="list-group-item border-0">{$_("Agriculture.listOne")}</li>
           <li class="list-group-item border-0">{$_("Agriculture.listTwo")}</li>
@@ -26,16 +27,14 @@
           <li class="list-group-item border-0">{$_("Agriculture.listFour")}</li>
           <li class="list-group-item border-0">{$_("Agriculture.listFive")}</li>
         </ol>
-
-        <br />
-
-        <h2>{$_("Agriculture.publicLand")}</h2>
+        <h2 class="text-center text-lg-start">
+          {$_("Agriculture.publicLand")}
+        </h2>
         <hr />
         <p class="fs-5">{$_("Agriculture.publicLandIntro")}</p>
-
-        <br />
-
-        <h2>{$_("Agriculture.farmingPlan")}</h2>
+        <h2 class="text-center text-lg-start">
+          {$_("Agriculture.farmingPlan")}
+        </h2>
         <hr />
         <p class="fs-5">{$_("Agriculture.farmingPlanIntro")}</p>
       </section>
