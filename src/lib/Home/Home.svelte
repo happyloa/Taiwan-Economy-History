@@ -42,19 +42,31 @@
 <section class="container-fluid my-3">
   <div class="row">
     <!--這裡是主要部份的左邊內容-->
-    <section class="col-12 col-md-7 col-lg-9 p-2">
-      <p class="fs-5">{$_("Home.taiwanIntro")}</p>
-      <p class="fs-5">{$_("Home.ROCgovernment")}</p>
-      <div class="w-100" id="curve_chart" style="height: 500px" />
+    <section class="col-12 col-md-7 col-lg-9 p-2 overflow-hidden">
+      <p class="fs-5 animate__animated animate__fadeInLeft">
+        {$_("Home.taiwanIntro")}
+      </p>
+      <p class="fs-5 animate__animated animate__fadeInLeft">
+        {$_("Home.ROCgovernment")}
+      </p>
+      <div
+        class="w-100 animate__animated animate__fadeInLeft"
+        id="curve_chart"
+        style="height: 500px"
+      />
     </section>
 
     <!--這裡是主要部份的右邊內容-->
-    <section class="col-12 col-md-5 col-lg-3 p-2">
-      <h3 class="text-center mb-3">{$_("Home.whereIsTaiwan")}</h3>
-      <p class="fs-5 mb-3">{$_("Home.taiwanLocation")}</p>
+    <section class="col-12 col-md-5 col-lg-3 p-2 overflow-hidden">
+      <h3 class="text-center mb-3 animate__animated animate__fadeInRight">
+        {$_("Home.whereIsTaiwan")}
+      </h3>
+      <p class="fs-5 mb-3 animate__animated animate__fadeInRight">
+        {$_("Home.taiwanLocation")}
+      </p>
       <iframe
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3747434.728288353!2d117.840608673357!3d23.474736379075086!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346ed5cb2b61c3a5%3A0xcf20ddb042be7fa0!2z6Ie654Gj!5e0!3m2!1szh-TW!2stw!4v1659361856358!5m2!1szh-TW!2stw"
-        class="w-100 rounded-4"
+        class="w-100 rounded-4 animate__animated animate__fadeInRight"
         frameborder="0"
         loading="lazy"
         aria-hidden="false"

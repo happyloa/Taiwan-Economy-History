@@ -31,7 +31,7 @@
 
 <Router url="{url}">
   <!--這裡是nav bar-->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top overflow-hidden">
     <div class="container-fluid">
       <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#economyNav" aria-controls="economyNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -39,27 +39,27 @@
       <div class="collapse navbar-collapse" id="economyNav">
         <ul class="navbar-nav me-auto mb-2 mb-md-0">
           <!-- 修改網址結尾成 / -->
-          <ll class="nav-item">
+          <ll class="nav-item animate__animated animate__bounceInLeft animate__faster">
             <Link class="nav-link m-1 fs-5 text-center text-lg-start" to="/"><i class="twicon-roc-flag fs-4" />{$_("navBar.Home")}</Link>
           </ll>
           <!-- 修改網址結尾成 /Agriculture -->
-          <ll class="nav-item">
+          <ll class="nav-item animate__animated animate__bounceInLeft animate__faster">
             <Link class="nav-link m-1 fs-5 text-center text-lg-start" to="Agriculture"><i class="twicon-flying-fish fs-4" />{$_("navBar.Agriculture")}</Link>
           </ll>
           <!-- 修改網址結尾成 /Industralization -->
-          <ll class="nav-item">
+          <ll class="nav-item animate__animated animate__bounceInLeft animate__fast">
             <Link class="nav-link m-1 fs-5 text-center text-lg-start" to="Industralization"><i class="twicon-youbike fs-4" />{$_("navBar.Industralization")}</Link>
           </ll>
           <!-- 修改網址結尾成 /Economy -->
-          <ll class="nav-item">
+          <ll class="nav-item animate__animated animate__bounceInLeft animate__slow">
             <Link class="nav-link m-1 fs-5 text-center text-lg-start" to="Economy"><i class="twicon-taipei101 fs-4" />{$_("navBar.Economy")}</Link>
           </ll>
           <!-- 修改網址結尾成 /Author -->
-          <ll class="nav-item">
+          <ll class="nav-item animate__animated animate__bounceInLeft animate__slower">
             <Link class="nav-link m-1 fs-5 text-center text-lg-start" to="Author"><i class="twicon-black-bear fs-4" />{$_("navBar.Author")}</Link>
           </ll>
         </ul>
-        <select on:change={handleLocaleChange} class="form-select w-25 d-block mx-auto">
+        <select on:change={handleLocaleChange} class="form-select w-25 d-block mx-auto animate__animated animate__bounceInRight">
             <option value="zhTW">繁體中文</option>
             <option value="en">English</option>
         </select>
