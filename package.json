@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite --port 8000",
-    "build": "vite build",
+    "build": "vite build --single",
+    "start": "npm run dev --single",
     "preview": "vite preview --single"
   },
   "devDependencies": {
